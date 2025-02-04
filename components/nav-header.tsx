@@ -22,6 +22,12 @@ export function NavHeader() {
         </Link>
         <div className="flex items-center gap-6">
           <Link
+            href="/faq"
+            className="text-gray-600 hover:text-pink-600 transition-colors"
+          >
+            FAQ
+          </Link>
+          <Link
             href="/gallery"
             className="text-gray-600 hover:text-pink-600 transition-colors"
           >

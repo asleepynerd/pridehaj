@@ -8,7 +8,6 @@ import { RibbonAnimation } from "@/components/ribbon-animation";
 import { FloatingElements } from "@/components/floating-elements";
 import { PrideFlags } from "@/components/pride-flags";
 import { NavHeader } from "@/components/nav-header";
-import { FAQ } from "@/components/faq";
 
 export default function PrideHaj() {
   return (
@@ -46,7 +45,7 @@ export default function PrideHaj() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-700 max-w-2xl mx-auto"
             >
-              Join our pride-themed hackathon! Create a website celebrating
+              Join our pride-themed ysws! Create a website celebrating
               diversity and inclusion, get a Blahaj, and be part of our
               wonderful LGBTQ tech community.
             </motion.p>
