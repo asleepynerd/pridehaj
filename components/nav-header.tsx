@@ -34,14 +34,11 @@ export function NavHeader() {
             Gallery
           </Link>
           <Link
-            href="https://github.com/hackclub/pridehaj"
+            href="https://github.com/asleepynerd/pridehaj"
             className="text-gray-600 hover:text-pink-600 transition-colors"
           >
             <Github className="h-5 w-5" />
           </Link>
-          <Button className="bg-black text-white hover:bg-black/90 rounded-full px-6">
-            Join Now
-          </Button>
         </div>
       </nav>
     </motion.header>

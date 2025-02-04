@@ -56,12 +56,6 @@ export default function PrideHaj() {
               transition={{ duration: 0.8, delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4 justify-center"
             >
-              <Button
-                size="lg"
-                className="bg-gradient-to-r from-[#FF0018] to-[#86007D] text-white hover:opacity-90 rounded-full px-8 text-lg h-12"
-              >
-                Start Creating
-              </Button>
               <Link href="/faq">
                 <Button
                   size="lg"
