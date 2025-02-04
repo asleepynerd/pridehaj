@@ -12,7 +12,7 @@ import "./pride.css";
 
 export default function PrideHaj() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFE5F9] via-white to-[#E5E5FF] overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-b from-[#FFE5F9] via-white to-[#E5E5FF] dark:from-[#0d0d1a] dark:via-[#0a0a14] dark:to-[#05050a] overflow-hidden">
       <NavHeader />
 
       <section className="relative min-h-screen flex items-center justify-center pt-20">
@@ -20,7 +20,7 @@ export default function PrideHaj() {
         <FloatingElements />
 
         <div className="relative z-10 container mx-auto px-8">
-          <div className="max-w-4xl mx-auto text-center space-y-8 backdrop-blur-sm bg-white/40 rounded-3xl p-12 shadow-xl border border-white/50">
+          <div className="max-w-4xl mx-auto text-center space-y-8 backdrop-blur-sm bg-white/40 dark:bg-gray-800/40 rounded-3xl p-12 shadow-xl border border-white/50 dark:border-gray-700/50">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -28,8 +28,12 @@ export default function PrideHaj() {
               className="relative"
             >
               <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
-                <span className="block text-gray-900">Celebrate Pride,</span>
-                <span className="block text-gray-900">Ship Something</span>
+                <span className="block text-gray-900 dark:text-gray-100">
+                  Celebrate Pride,
+                </span>
+                <span className="block text-gray-900 dark:text-gray-100">
+                  Ship Something
+                </span>
                 <span className="relative block">
                   <span className="lgbt">Awesome</span>
                   <br />
@@ -42,7 +46,7 @@ export default function PrideHaj() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-xl text-gray-700 max-w-2xl mx-auto"
+              className="text-xl text-gray-700 dark:text-gray-300 max-w-2xl mx-auto"
             >
               Join our pride-themed ysws! Create a website celebrating diversity
               and inclusion, get a Blahaj, and be part of our wonderful LGBTQ
@@ -59,7 +63,7 @@ export default function PrideHaj() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-2 border-[#86007D]/20 hover:bg-[#86007D]/5 rounded-full px-8 text-lg h-12"
+                  className="border-2 border-[#86007D]/20 hover:bg-[#86007D]/5 rounded-full px-8 text-lg h-12 dark:border-[#86007D]/50 dark:hover:bg-[#86007D]/10"
                 >
                   Learn More
                 </Button>
