@@ -8,6 +8,7 @@ import { RibbonAnimation } from "@/components/ribbon-animation";
 import { FloatingElements } from "@/components/floating-elements";
 import { PrideFlags } from "@/components/pride-flags";
 import { NavHeader } from "@/components/nav-header";
+import "./pride.css";
 
 export default function PrideHaj() {
   return (
@@ -30,9 +31,7 @@ export default function PrideHaj() {
                 <span className="block text-gray-900">Celebrate Pride,</span>
                 <span className="block text-gray-900">Ship Something</span>
                 <span className="relative block">
-                  <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF0018] via-[#86007D] to-[#0000F9]">
-                    Awesome
-                  </span>
+                  <span className="lgbt">Awesome</span>
                   <br />
                   <RibbonAnimation />
                 </span>
@@ -45,9 +44,9 @@ export default function PrideHaj() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="text-xl text-gray-700 max-w-2xl mx-auto"
             >
-              Join our pride-themed ysws! Create a website celebrating
-              diversity and inclusion, get a Blahaj, and be part of our
-              wonderful LGBTQ tech community.
+              Join our pride-themed ysws! Create a website celebrating diversity
+              and inclusion, get a Blahaj, and be part of our wonderful LGBTQ
+              tech community.
             </motion.p>
 
             <motion.div

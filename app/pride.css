@@ -1,0 +1,29 @@
+.lgbt {
+  background: linear-gradient(
+    to right,
+    red,
+    #ff7f00,
+    #ff0,
+    #0f0,
+    #00f,
+    indigo,
+    #8f00ff
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: lgbt 10s ease-in-out infinite;
+  background-size: 400% 100%;
+  position: relative;
+  display: inline-block;
+}
+
+@keyframes lgbt {
+  0%,
+  100% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+}
